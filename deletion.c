@@ -16,6 +16,7 @@ void deletion(int arr[], int index, int size)
         arr[j] = arr[j+1];
     }
 }
+BoomBam
 int main()
 {
     int arr[100] = {1,2,3,3,4,5,5};
@@ -26,4 +27,5 @@ int main()
     deletion(arr,index,size);
     size -= 1;
     display(arr,size);
+    //this is a new line
 }
